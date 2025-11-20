@@ -655,7 +655,7 @@ export default function PDFNexus() {
         {/* Faded Logo Background */}
         <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-0">
           <img 
-            src="/assets/Beige___Black_Aesthetic_Flower_Boutique_Logo-removebg-preview.png" 
+            src="/Beige___Black_Aesthetic_Flower_Boutique_Logo-removebg-preview.png" 
             alt="" 
             className="w-[600px] h-[600px] object-contain opacity-[0.4] select-none"
           />
@@ -964,7 +964,7 @@ export default function PDFNexus() {
       {/* Sidebar */}
       <aside className={`${sidebarOpen ? 'w-64' : 'w-0 md:w-20'} bg-white border-r border-slate-200 transition-all duration-300 flex flex-col shrink-0 z-20`}>
         <div className="p-6 flex items-center gap-3 border-b border-slate-100 h-20">
-           <img src="/assets/Beige___Black_Aesthetic_Flower_Boutique_Logo-removebg-preview.png" alt="PDF Nexus Logo" className="w-10 h-10 object-contain shrink-0" />
+           <img src="/Beige___Black_Aesthetic_Flower_Boutique_Logo-removebg-preview.png" alt="PDF Nexus Logo" className="w-10 h-10 object-contain shrink-0" />
            <span className={`font-black text-2xl tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-violet-600 via-purple-600 to-fuchsia-600 whitespace-nowrap transition-opacity ${sidebarOpen ? 'opacity-100' : 'opacity-0 hidden md:block'}`}>
              PDF Nexus
            </span>
@@ -1022,7 +1022,7 @@ export default function PDFNexus() {
          {/* Header Mobile */}
          <div className="md:hidden bg-white border-b border-slate-200 p-4 flex justify-between items-center z-30 relative">
              <div className="flex items-center gap-2">
-               <img src="/assets/Beige___Black_Aesthetic_Flower_Boutique_Logo-removebg-preview.png" alt="PDF Nexus Logo" className="w-8 h-8 object-contain" />
+               <img src="/Beige___Black_Aesthetic_Flower_Boutique_Logo-removebg-preview.png" alt="PDF Nexus Logo" className="w-8 h-8 object-contain" />
                <span className="font-bold text-lg">PDF Nexus</span>
              </div>
              <button onClick={() => setSidebarOpen(!sidebarOpen)} className="p-2 hover:bg-slate-100 rounded-lg">
