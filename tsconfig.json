@@ -9,7 +9,6 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": false,
     "noEmit": true,
@@ -19,5 +18,6 @@
     "noFallthroughCasesInSwitch": false
   },
   "include": ["*.tsx", "*.ts"],
+  "exclude": ["vite.config.ts", "postcss.config.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
