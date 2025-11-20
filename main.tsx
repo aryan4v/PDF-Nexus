@@ -41,6 +41,18 @@ import {
   Send
 } from 'lucide-react';
 
+// -- Type Declarations --
+declare global {
+  interface Window {
+    jspdf: any;
+  }
+}
+
+interface FileWithPreview extends File {
+  preview?: string;
+  size: number;
+}
+
 // -- Constants & Configuration --
 
 const TOOL_CATEGORIES = {
@@ -155,8 +167,8 @@ export default function PDFNexus() {
 
   // --- File Handling ---
 
-  const handleFileChange = (e) => {
-    const newFiles = Array.from(e.target.files).map(file => ({
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newFiles = Array.from(e.target.files || []).map((file: File) => ({
       id: Math.random().toString(36).substr(2, 9),
       file,
       preview: URL.createObjectURL(file),
@@ -555,7 +567,7 @@ export default function PDFNexus() {
          const worksheet = workbook.Sheets[sheetName];
          
          // Convert to array of arrays
-         const data = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+         const data = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as any[][];
          
          // Create PDF
          const doc = new jsPDF();
@@ -568,7 +580,7 @@ export default function PDFNexus() {
          y += 10;
          
          // Add data rows
-         data.slice(0, 30).forEach((row, index) => {
+         data.slice(0, 30).forEach((row: any[], index) => {
            if (y > 280) {
              doc.addPage();
              y = 10;
