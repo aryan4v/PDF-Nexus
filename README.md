@@ -5,11 +5,13 @@
   
   ### Your Ultimate PDF Toolkit
   
-  [![Live Demo](https://img.shields.io/badge/demo-live-success)](https://github.com/ritvik78/PDF-Nexus)
+  [![Live Demo](https://img.shields.io/badge/demo-live-success)](https://ritvik78.github.io/PDF-Nexus/)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![React](https://img.shields.io/badge/React-18.2.0-61dafb.svg)](https://reactjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.3.0-3178c6.svg)](https://www.typescriptlang.org/)
   [![Express](https://img.shields.io/badge/Express-4.18.2-000000.svg)](https://expressjs.com/)
+  
+  **🌐 [Live Demo](https://ritvik78.github.io/PDF-Nexus/) | [GitHub Repository](https://github.com/ritvik78/PDF-Nexus)**
 </div>
 
 ---
