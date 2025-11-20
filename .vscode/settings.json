@@ -1,0 +1,16 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "javascript.implicitProjectConfig.checkJs": false,
+  "typescript.reportUnusedLabels": false,
+  "typescript.reportUnusedParameters": false,
+  "typescript.validate.enable": false
+}
