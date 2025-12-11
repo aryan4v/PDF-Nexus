@@ -35,12 +35,12 @@ PDF Nexus is a comprehensive PDF manipulation tool with a beautiful UI and power
 - **Image to PDF** - Convert JPG/PNG images to PDF
 
 ### 🎨 UI Features
-- **Drag & Drop** - Easy file upload
-- **AI Assistant** - Interactive help with draggable robot interface
-- **Search** - Quick tool finder with suggestions
-- **Responsive Design** - Works on desktop and mobile
-- **Real-time Progress** - Track conversion progress
-- **Download** - Instant file downloads
+- **Drag & Drop** - Easy file upload.
+- **AI Assistant** - Interactive help with draggable robot interface.
+- **Search** - Quick tool finder with suggestions.
+- **Responsive Design** - Works on desktop and mobile.
+- **Real-time Progress** - Track conversion progress.
+- **Download** - Instant file downloads.
 
 ---
 
